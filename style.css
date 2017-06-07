@@ -1,0 +1,15 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+	position:relative;
+}
+html,body{
+	display:flex;
+	justify-content:  center;
+	align-items: center;
+	flex-direction: column;
+}
+.cubo{
+	width: 90px;
+}
+h1{
+}
