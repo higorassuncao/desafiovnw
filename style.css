@@ -10,9 +10,11 @@ html,body{
 }
 body{
 	background: #D3D3D3;
+	font-family: arial;
+	font-size: 15px;
 }
 .cubo{
-	width: 90px;
+	width: 120%;
 }
 img{
 	width: 100px;
@@ -20,9 +22,96 @@ img{
 main{
 	display: flex;
 	flex-wrap: wrap;
+	width: 80%;
 }
 section{
 	padding: 15px;
 	margin: 10px;
 	background:#fff;
 }
+.sec1{
+	width: 65%;
+}
+.sec2{
+	width: 30%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.sec2 div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.sec2 div p{
+	font-size: 14px;
+	text-align: center;
+
+}
+.sec3{
+    width: 30%;
+ }
+ .tx1{
+ 	margin-bottom: 0%;
+ 	display: flex;
+ 	justify-content: flex-end;
+ }
+.sec3 img{
+	width: 48%;
+}
+.sec3 p{
+	text-align: center;
+}
+.sec4 img{
+	width: 55%;
+}
+.sec4 div{
+	margin: 1%;
+	width: 44%;
+}
+.sec4{
+	display: flex;
+	flex-wrap: wrap;
+	width: 65%;
+}
+.sec4 ul{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.sec4 ul li:before{
+	content:"- ";
+}
+.sec5{
+	width: 50%;
+}
+.sec6{
+	width: 28%;
+}
+.sec6 img{
+	width: 75%;
+	margin: 4%
+}
+.sec7{
+	width: 15%;
+}
+.sec7 ul{
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+@font-face{
+	font-family: "Times New Roman - italico";
+	src: url(fonts/tamesi.ttf);
+}
+h1{
+	font-size: 25px;
+}
+h2{
+	font-size: 18px;
+}
+h3{
+	font-size: 15px;
+}
+
